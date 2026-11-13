@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API 19 to 20: Holo (dark). Newer devices use values-v21/styles.xml. -->
+    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/bg_toolbar</item>
+    </style>
+</resources>

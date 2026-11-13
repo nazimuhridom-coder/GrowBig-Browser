@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Change the browser name here and in nowhere else. -->
+    <string name="app_name">Growbig Browser</string>
+
+    <string name="hint_address">Search or enter address</string>
+
+    <!-- Accessibility labels -->
+    <string name="cd_back">Back</string>
+    <string name="cd_forward">Forward</string>
+    <string name="cd_refresh">Refresh or stop</string>
+    <string name="cd_home">Home</string>
+    <string name="cd_new_tab">New tab</string>
+    <string name="cd_close_tab">Close tab</string>
+    <string name="cd_menu">Menu</string>
+    <string name="cd_clear">Clear address</string>
+    <string name="cd_security">Connection security</string>
+
+    <!-- Menu -->
+    <string name="menu_new_tab">New tab</string>
+    <string name="menu_desktop_site">Desktop site</string>
+    <string name="menu_zoom_in">Zoom in</string>
+    <string name="menu_zoom_out">Zoom out</string>
+    <string name="menu_share">Share link</string>
+    <string name="menu_copy_link">Copy link</string>
+    <string name="menu_open_external">Open in another browser</string>
+    <string name="menu_exit">Exit browser</string>
+
+    <!-- Messages -->
+    <string name="new_tab_title">New tab</string>
+    <string name="tab_limit_reached">Tab limit reached. Close a tab to open a new one.</string>
+    <string name="no_page_to_share">There is no page to use yet.</string>
+    <string name="link_copied">Link copied</string>
+    <string name="share_via">Share link via</string>
+    <string name="open_with">Open with</string>
+    <string name="no_app_found">No app found to open this.</string>
+
+    <!-- Error page -->
+    <string name="error_title">Page not available</string>
+    <string name="error_generic">This page could not be loaded.</string>
+    <string name="error_offline">You appear to be offline. Check your network connection and try again.</string>
+    <string name="error_retry">Try again</string>
+    <string name="error_try_http">Try over HTTP (not secure)</string>
+    <string name="ssl_blocked_note">%1$s blocked this connection to protect your data.</string>
+    <string name="ssl_generic">The security certificate of this site could not be verified.</string>
+    <string name="ssl_untrusted">The security certificate of this site is not issued by a trusted authority.</string>
+    <string name="ssl_expired">The security certificate of this site has expired.</string>
+    <string name="ssl_idmismatch">The security certificate does not match the address of this site.</string>
+    <string name="ssl_notyetvalid">The security certificate of this site is not valid yet. Check the date on your device.</string>
+</resources>

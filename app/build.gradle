@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.growbig.browser'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.growbig.browser"
+        minSdk 19
+        targetSdk 34
+        versionCode 1
+        versionName "0.1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // No signingConfig on purpose: the release APK comes out unsigned.
+            // See README.md for how to sign it without putting passwords in the repo.
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        abortOnError false
+    }
+}
+
+// Phase 1 deliberately has NO third-party dependencies (no AndroidX, no AppCompat).
+// Everything uses framework APIs that exist on API 19, so nothing can raise the minSdk.
+dependencies {
+}

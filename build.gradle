@@ -1,0 +1,5 @@
+// Top-level build file. Plugin versions are declared here once.
+// AGP 8.1.4 needs Gradle 8.0+ and JDK 17, and still supports minSdk 19.
+plugins {
+    id 'com.android.application' version '8.1.4' apply false
+}

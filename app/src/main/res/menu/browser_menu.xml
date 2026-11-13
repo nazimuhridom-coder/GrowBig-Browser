@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_new_tab"
+        android:title="@string/menu_new_tab" />
+    <item
+        android:id="@+id/menu_desktop"
+        android:checkable="true"
+        android:title="@string/menu_desktop_site" />
+    <item
+        android:id="@+id/menu_zoom_in"
+        android:title="@string/menu_zoom_in" />
+    <item
+        android:id="@+id/menu_zoom_out"
+        android:title="@string/menu_zoom_out" />
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/menu_share" />
+    <item
+        android:id="@+id/menu_copy_link"
+        android:title="@string/menu_copy_link" />
+    <item
+        android:id="@+id/menu_open_external"
+        android:title="@string/menu_open_external" />
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu_exit" />
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToolbarIcon">
+        <attr name="iconType" format="enum">
+            <enum name="back" value="0" />
+            <enum name="forward" value="1" />
+            <enum name="refresh" value="2" />
+            <enum name="stop" value="3" />
+            <enum name="home" value="4" />
+            <enum name="menu" value="5" />
+            <enum name="plus" value="6" />
+            <enum name="close" value="7" />
+            <enum name="lock" value="8" />
+            <enum name="lock_open" value="9" />
+            <enum name="search" value="10" />
+            <enum name="star" value="11" />
+            <enum name="star_filled" value="12" />
+        </attr>
+        <attr name="iconColor" format="color" />
+    </declare-styleable>
+</resources>
